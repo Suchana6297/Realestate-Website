@@ -1,0 +1,140 @@
+:root{
+    --main:gray;
+}
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.body{
+    font-family: 'Merriweather', serif;
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+
+}
+.navbar-brand{
+    color: black;
+    font-weight: 700;
+}
+.main{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/banner2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card{
+    border: none;
+    
+}
+.main select{
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+}
+.main span{
+    color: rgb(104, 89, 89);
+    font-weight: 600;
+}
+.main .btn1{
+    background-color: coral;
+    color: white;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 32px;
+}
+.btn1:hover{
+    background-color: tomato;
+    transition: 0.5s;
+}
+.land{
+    background: white;
+}
+.btn2{
+    background: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+.rent{
+    background: rgb(238, 235, 235);
+}
+.rent .mid{
+    margin-top: 50px;
+}
+.rent .card{
+    position: relative;
+}
+.rent .card:hover{
+    background-color: var(--main);
+    margin-top: 60px;
+    cursor: pointer;
+    .img-fluid{
+        filter: grayscale(0.50);
+    }
+}
+.Home .card{
+    position: relative;
+}
+.Home .card:hover{
+    background-color: var(--main);
+    margin-top: 60px;
+    cursor: pointer;
+    .img-fluid{
+        filter: grayscale(0.50);
+    }
+}
+
+.btnc{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.Home{
+    background: rgb(238, 235, 235);
+}
+.Home .mid{
+    margin-top: 50px;
+}
+.btnf{
+    background-color: black;
+    color: rgb(254, 254, 254);
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+    display: inline-block;
+
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.feb{
+    font-size: 25px;
+    color: rgb(67, 53, 53);
+}
+.fab:hover{
+    color: white;
+    transition: 0.5s;
+}
